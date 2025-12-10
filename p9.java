@@ -8,9 +8,9 @@ class Main{
 }
 class UserMainCode {
 	public static boolean regularExpression(String inp){
-		Pattern p = Patten.conpile("[a-zA-Z0-9][R][0-9][a-zA-Z0-9]");
+		/*Pattern p = Patten.conpile("[a-zA-Z0-9][R][0-9][a-zA-Z0-9]");
 		Matcher m = p.matcher(inp);
-		return m.matches();
-		//return inp.matches("[a-zA-Z0-9][R][0-9][a-zA-Z0-9]");
+		return m.matches();*/
+		return inp.matches("(^[2][1-9]$)|(^[3][0-9]$)|(^[4][0-5]$)");
 	}
 }
